@@ -1,4 +1,4 @@
-import { TestContext } from './test-context';
+import { TestContext } from './util/test-context';
 
 const TIMEOUT = 2000;
 

@@ -18,9 +18,9 @@
     // "outFile": "./",                       /* Concatenate and emit output to single file. */
 
     /* Redirect output structure to the directory. */
-    "outDir": "./dist",
+    //"outDir": "./dist",
     /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
-    "rootDir": "./src/",
+    //"rootDir": "./src/",
     // "composite": true,                     /* Enable project compilation */
     // "removeComments": true,                /* Do not emit comments to output. */
     // "noEmit": true,                        /* Do not emit outputs. */
@@ -67,6 +67,6 @@
     // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
   },
   "files": [
-    "src/runner"
+    "index"
   ]
 }
