@@ -22,6 +22,9 @@
   "license": "MIT",
   "repository": "git://github.com/kwsites/test-runner.git",
   "main": "./dist/runner.js",
+  "bin": {
+    "runner": "./bin/test-runner.js"
+  },
   "scripts": {
     "clean": "rimraf dist",
     "preversion": "yarn clean && yarn tsc",
