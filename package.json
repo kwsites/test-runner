@@ -1,0 +1,31 @@
+{
+  "name": "@kwsites/test-runner",
+  "description": "Drop-in replacement of nodeunit",
+  "version": "0.0.0",
+  "author": "Steve King <steve@mydev.co>",
+  "contributors": [
+    {
+      "name": "Steve King",
+      "email": "steve@mydev.co"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.6.2",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.5.3"
+  },
+  "keywords": [
+    "test",
+    "nodeunit"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/kwsites/test-runner.git",
+  "main": "./dist/runner.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "preversion": "yarn clean && yarn tsc",
+    "postversion": "npm publish --access public && git push && git push --tags",
+    "tsc": "tsc"
+  }
+}
