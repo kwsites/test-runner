@@ -1,7 +1,7 @@
 {
   "name": "@kwsites/test-runner",
   "description": "Drop-in replacement of nodeunit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Steve King <steve@mydev.co>",
   "contributors": [
     {
